@@ -16,7 +16,9 @@ export class QuizDataService {
 	private static readonly CATEGORIES: Category[] = [
 		{ id: 'biology-8', name: 'Биология 8 класс', icon: '🧬', color: 'bg-green-600' },
 		{ id: 'chemistry-8', name: 'Химия 8 класс', icon: '⚗️', color: 'bg-purple-600' },
-		{ id: 'history-8', name: 'История 8 класс', icon: '📜', color: 'bg-amber-600' },
+		{ id: 'history-8', name: 'История России 8 класс', icon: '📜', color: 'bg-amber-600' },
+		{ id: 'geography-8', name: 'География 8 класс', icon: '🌍', color: 'bg-blue-600' },
+		{ id: 'world-history-8', name: 'Всеобщая история 8 класс', icon: '🏛️', color: 'bg-indigo-600' },
 	];
 
 	/**
