@@ -60,6 +60,12 @@ export const QuizScreen: React.FC<QuizScreenProps> = ({
 						{category.icon} {category.name}
 					</div>
 
+					{currentQuestion.topic && (
+						<div className="text-sm font-semibold text-slate-600 dark:text-slate-400 mb-3">
+							{currentQuestion.topic}
+						</div>
+					)}
+
 					<h2 className="text-2xl font-bold text-slate-800 dark:text-slate-100 mb-6">
 						{currentQuestion.question}
 					</h2>

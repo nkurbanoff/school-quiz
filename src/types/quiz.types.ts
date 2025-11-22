@@ -17,6 +17,8 @@ export interface Question {
 	correct: number;
 	/** Объяснение правильного ответа */
 	explanation: string;
+	/** Тема вопроса (опционально) */
+	topic?: string;
 	/** Уровень сложности (опционально) */
 	difficulty?: DifficultyLevel;
 	/** Теги для фильтрации (опционально) */
